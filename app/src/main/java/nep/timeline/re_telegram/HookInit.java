@@ -29,7 +29,7 @@ public class HookInit implements IXposedHookLoadPackage {
     
     private static final List<String> hookPackagesCustomization = Arrays.asList(
         "xyz.nextalone.nagram", "nekox.messenger", "com.xtaolabs.pagergram", 
-        "nu.gpu.nagram", "nekox.messenger.broken" // 已加入 nu.gpu.nagram
+        "nu.gpu.nagram", "nekox.messenger.broken" 
     );
 
     public static final boolean DEBUG_MODE = false;
