@@ -1,3 +1,7 @@
+此版本适配了nagram x客户端
+自己勾选作用域软件即可
+
+
 # Re:Telegram
 An Xposed module to enhance the Telegram
 
