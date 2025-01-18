@@ -1,11 +1,10 @@
 此版本适配了nagram x客户端
 自己勾选作用域软件即可
-
+2025-01-17
 
 # Re:Telegram
 An Xposed module to enhance the Telegram
 
-[日本語](./README_ja-JP.md) | [简体中文](./README_zh-CN.md)
 
 [![Release](https://img.shields.io/github/release/Sakion-Team/Re-Telegram.svg)](https://github.com/Sakion-Team/Re-Telegram/releases/latest)
 [![CI_Build](https://github.com/Sakion-Team/Re-Telegram/actions/workflows/android.yml/badge.svg)](https://github.com/Sakion-Team/Re-Telegram/actions/workflows/android.yml)
