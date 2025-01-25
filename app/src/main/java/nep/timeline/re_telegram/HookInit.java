@@ -29,7 +29,7 @@ public class HookInit implements IXposedHookLoadPackage {
     
     private static final List<String> hookPackagesCustomization = Arrays.asList(
         "xyz.nextalone.nagram", "nekox.messenger", "com.xtaolabs.pagergram", 
-        "nu.gpu.nagram", "nekox.messenger.broken" 
+        "nu.gpu.nagram", "nekox.messenger.broken", "xyz.nry2025.nagram"  // Added here
     );
 
     public static final boolean DEBUG_MODE = false;
@@ -56,8 +56,8 @@ public class HookInit implements IXposedHookLoadPackage {
             // 统一的 Nagram 初始化
             ApplicationLoaderHook.init(classLoader);
 
-            // Nagram 或 nu.gpu.nagram 的初始化
-            if (lpparam.packageName.equals("xyz.nextalone.nagram") || lpparam.packageName.equals("nu.gpu.nagram")) {
+            // Nagram 或 nu.gpu.nagram 或 xyz.nry2025.nagram 的初始化
+            if (lpparam.packageName.equals("xyz.nextalone.nagram") || lpparam.packageName.equals("nu.gpu.nagram") || lpparam.packageName.equals("xyz.nry2025.nagram")) {
                 NEWAntiRecall.initUI(classLoader);
                 NEWAntiRecall.initProcessing(classLoader);
                 NEWAntiRecall.init(classLoader);
