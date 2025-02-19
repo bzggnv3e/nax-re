@@ -1,7 +1,7 @@
 此版本适配了nagram x客户端
 自己勾选作用域软件即可
 2025-01-17
-
+ 
 和@Nagram_Broken
 2025-01-26
 # Re:Telegram
